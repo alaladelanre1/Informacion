@@ -10,7 +10,7 @@
 html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.7em;
-    background: url('../img/newspile.jpg')
+    background: url('../img/office.jpg')
 }
 
 a{
@@ -79,9 +79,36 @@ p{
     color: #333; 
 }
 
+.b1{
+    background: #c1dae0;
+    color: #333; 
+}
+
+.b2{
+    background: #fff;
+    color: #333; 
+}
+
+.b3{
+    background: #c1dae0;
+    color: #333; 
+}
+
+.b4{
+    background: #fff;
+    color: #333; 
+}
+
+.b5{
+    background: #c1dae0;
+    color: #333; 
+}
+
 .clr{
     clear: both;
 }
+
+
 
 /* Navbar*/
 #navbar{
@@ -190,6 +217,81 @@ p{
   
   height: 150px;
   width: 300px;
+}
+
+/* Banner */
+
+#banner{
+    background: url('../img/sports1.jpg')no-repeat center center/cover;
+    height: 100px;
+}
+#banner .floater{
+    text-align: center;
+    line-height: 1.7em;
+    padding-top: 40px;
+}
+
+#banner .floater h1{
+    color: green;
+}
+
+/* Latest Report */
+
+#latest-report{
+    height: 600px;
+   
+}
+
+#latest-report .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/sports1.jpg');
+    min-height: 100%
+}
+
+#latest-report .headlines{
+    float: right;
+    width: 50%;
+    height: 100%;  
+    padding: 50px 30px;
+    overflow: hidden;
+    background: whitesmoke;
+    color: black;
+    opacity: 0.9;
+}
+
+#latest-report .headlines a{
+    color: black;
+    margin-top: 0;
+}
+
+
+#latest-report .headlines img{
+    height: 70px;
+    width: 120px;
+}
+
+/* Football*/
+#football,
+#tennis,
+#rugby {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    margin: 0;
+}
+
+ .boxx{
+     float: left;
+     width: 20%;
+     padding: 50px;
+     text-align: center;
+ }
+ h3{
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+    
 }
 
 /* Footer */
